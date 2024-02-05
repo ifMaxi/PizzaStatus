@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PizzaStatus</string>
+
+    <!-- Loading -->
+    <string name="loading">Eating pizza…</string>
+
+    <!-- Error -->
+    <string name="error">Oops… Lost pizza</string>
+
+    <!-- Waiting -->
+    <string name="waiting">Enter an error code</string>
+
+    <!-- Search placeholder -->
+    <string name="search_placeholder">Search code</string>
+</resources>
