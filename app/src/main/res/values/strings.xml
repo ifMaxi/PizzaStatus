@@ -12,4 +12,11 @@
 
     <!-- Search placeholder -->
     <string name="search_placeholder">Search code</string>
+
+    <!-- Navigation -->
+    <string name="main_screen">Home</string>
+    <string name="code_list_screen">Code List</string>
+
+    <!-- Titles -->
+    <string name="list_code">List of Codes</string>
 </resources>
