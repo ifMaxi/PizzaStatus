@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.maxidev.pizzastatus.ui.presentation.PizzaScreen
+import com.maxidev.pizzastatus.ui.navigation.NavGraph
 import com.maxidev.pizzastatus.ui.theme.PizzaStatusTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PizzaScreen()
+                    NavGraph()
                 }
             }
         }
